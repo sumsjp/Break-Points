@@ -15,7 +15,7 @@ from lib.mylog import setup_logger
 from verify_chinese import detect_chinese
 
 # === 設定頻道網址 ===
-channel_url = 'https://www.youtube.com/playlist?list=PLhoNlZaJqDLaPgn1NqC9FxMPnlkemRpyr'
+channel_url = 'https://www.youtube.com/@breakingpoints/videos'
 
 # 設定 logger
 logger = setup_logger('youtube_update')
@@ -54,7 +54,7 @@ def update_list():
     for video in reversed(videos):
         # 過濾掉時間超過1小時的影片或live影片
         duration = video.get('duration')
-        if duration is None or duration > 3600:
+        if duration is None or duration > 36000:
             continue
 
         video_id = video.get('id')
@@ -116,7 +116,7 @@ def download_script(df):
     
     # 計數器
     download_count = 0
-    max_downloads = 3
+    max_downloads = 10
     
     # 優先字幕語言列表
     preferred_langs = ['ja','en']
@@ -296,7 +296,7 @@ def make_doc(filename: str, video_list: list, reverse):
         logger.error(f"製作文件失敗 {filename}: {str(e)}")
 
 def create_readme_doc(max_idx, latest_date, batch_size, reverse):
-    content = f"""# TBS News ({latest_date})
+    content = f"""# Breaking Points ({latest_date})
 
 ---
 
@@ -417,7 +417,7 @@ def email_notify(new_df):
                 for receiver in receiver_emails:
                     # 為每個收件者建立新的郵件物件
                     msg = MIMEMultipart('alternative')
-                    msg['Subject'] = f"TBS News: {video['title']}"
+                    msg['Subject'] = f"Breaking Points: {video['title']}"
                     msg['From'] = f"no-reply <{sender_email}>"
                     msg['To'] = receiver
                     msg.attach(MIMEText(html_template, 'html'))

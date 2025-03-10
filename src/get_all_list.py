@@ -3,7 +3,7 @@ import pandas as pd
 from yt_dlp import YoutubeDL
 
 # === 設定頻道網址 ===
-channel_url = 'https://www.youtube.com/playlist?list=PLhoNlZaJqDLaPgn1NqC9FxMPnlkemRpyr'
+channel_url = 'https://www.youtube.com/@breakingpoints/videos'
 
 # === 設定 CSV 檔案名稱 ===
 csv_file = './video_list.csv'
@@ -27,7 +27,7 @@ video_list = []
 for video in videos:
     # 過濾掉時間超過1小時的影片或live影片
     duration = video.get('duration')
-    if duration is None or duration > 3600:
+    if duration is None or duration > 36000:
         continue
 
     video_id = video.get('id')
