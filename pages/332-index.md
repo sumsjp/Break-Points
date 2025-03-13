@@ -1,3 +1,13 @@
+<details>
+<summary>6641. Are Dems Plotting FAKE Trump Resistance On Shutdown?</summary><br>
+
+<a href="https://www.youtube.com/watch?v=n7ELnXBbrj8" target="_blank">
+    <img src="https://img.youtube.com/vi/n7ELnXBbrj8/maxresdefault.jpg" 
+        alt="[Youtube]" width="200">
+</a>
+
+# Are Dems Plotting FAKE Trump Resistance On Shutdown?
+
 ## 摘要：美國政治現況分析（基於原文摘錄）
 
 **核心主題：** 本次討論重點在於分析美國民主黨基層的變化、領導層的困境，以及與共和黨基層反叛現象的对比。
@@ -32,3 +42,5 @@
 **五、總體趨勢：**
 
 美國政治內部正在發生深刻變化，選民的自主性增強、基層反叛加劇、政治領導層的威信下降，這些因素相互作用，共同塑造著美國政治的未來。
+</details>
+
