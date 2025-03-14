@@ -1,4 +1,17 @@
 <details>
+<summary>6644. BREAKING: Dems RAGE At Schumer, Markets TANK, Firings BLOCKED, Putin REACTS to Ceasefire</summary><br>
+
+<a href="https://www.youtube.com/watch?v=Is8SdhcnU70" target="_blank">
+    <img src="https://img.youtube.com/vi/Is8SdhcnU70/maxresdefault.jpg" 
+        alt="[Youtube]" width="200">
+</a>
+
+# BREAKING: Dems RAGE At Schumer, Markets TANK, Firings BLOCKED, Putin REACTS to Ceasefire
+
+
+</details>
+
+<details>
 <summary>6643. [2025-03-13] Krystal And Saagar DEBATE Gavin Newsom, Bannon Podcast</summary><br>
 
 <a href="https://www.youtube.com/watch?v=P_hhTML5nVw" target="_blank">
